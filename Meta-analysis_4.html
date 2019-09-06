@@ -13,7 +13,7 @@ class: center, middle, inverse, title-slide
 
 # Meta-analysis course: part 4: Publication bias.
 ### Thomas Pollet (<span class="citation">@tvpollet</span>), Northumbria University
-### 2019-09-04 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
+### 2019-09-06 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
 
 ---
 
@@ -141,7 +141,7 @@ Funnel plot for our `model_hksj` (fom meta-analysis slides 3) meta-analysis outp
 funnel(model_hksj,xlab = "Hedges' g") # adds label on X
 ```
 
-![](Meta_analysis_4_files/figure-html/funnel-1.svg)&lt;!-- --&gt;
+![](Meta-analysis_4_files/figure-html/funnel-1.svg)&lt;!-- --&gt;
 
 ---
 ## Funnel plot: What does it show?
@@ -172,7 +172,7 @@ We can also display the name of each study using the `studlab` parameter.
 funnel(model_hksj,xlab = "g",studlab = TRUE)
 ```
 
-![](Meta_analysis_4_files/figure-html/funnel labels-1.svg)&lt;!-- --&gt;
+![](Meta-analysis_4_files/figure-html/funnel labels-1.svg)&lt;!-- --&gt;
 
 ???
 3 outlying studies driving the asymmetry, large effect size but small sample.
@@ -180,7 +180,7 @@ funnel(model_hksj,xlab = "g",studlab = TRUE)
 ---
 ## Other Y-axes (`yaxis` command)
 
-![](Meta_analysis_4_files/figure-html/different funnels-1.svg)&lt;!-- --&gt;
+![](Meta-analysis_4_files/figure-html/different funnels-1.svg)&lt;!-- --&gt;
 
 ---
 ## Contour enhanced funnelplot
@@ -198,7 +198,7 @@ legend(1.25, 0.10,
 ---
 ## Result
 
-![](Meta_analysis_4_files/figure-html/unnamed-chunk-2-1.svg)&lt;!-- --&gt;
+![](Meta-analysis_4_files/figure-html/unnamed-chunk-2-1.svg)&lt;!-- --&gt;
 
 ???
 Some studies have statistically significant effect sizes (grey background), others do not (white background). We also see a trend that while the moderately sized studies are partly significant and non-significant, with slightly more significant studies, the asymmetry is much larger for small studies. This gives us a hint that publication bias might indeed be present in our analysis.
@@ -422,7 +422,7 @@ model_hksj.trimfill&lt;-trimfill(model_hksj)
 funnel(model_hksj.trimfill,xlab = "Hedges' g")
 ```
 
-![](Meta_analysis_4_files/figure-html/trim and fill plot-1.svg)&lt;!-- --&gt;
+![](Meta-analysis_4_files/figure-html/trim and fill plot-1.svg)&lt;!-- --&gt;
 
 ???
 Can be further modified.
@@ -473,7 +473,7 @@ Can be further modified.
 radial(model_hksj)
 ```
 
-![](Meta_analysis_4_files/figure-html/radial-1.svg)&lt;!-- --&gt;
+![](Meta-analysis_4_files/figure-html/radial-1.svg)&lt;!-- --&gt;
 
 ???
 Results for smaller studies (inverse of standard error less than 2) do not scatter randomly around the regression line, here. Conforming
@@ -960,7 +960,7 @@ The function provides an estimate of `\(d=0.642\)`.
 plotloss(data=metacont,dmin=0,dmax=1)
 ```
 
-&lt;img src="Meta_analysis_4_files/figure-html/unnamed-chunk-20-1.svg" width="400px" style="display: block; margin: auto;" /&gt;
+&lt;img src="Meta-analysis_4_files/figure-html/unnamed-chunk-20-1.svg" width="400px" style="display: block; margin: auto;" /&gt;
 
 ```
 ## [1] 0.6418174
