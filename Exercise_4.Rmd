@@ -13,7 +13,7 @@ output:
 Using the `dat.raudenbush1985` from week 3. Rerun the random-effects meta-analysis with REML estimation. 
 
 * Make a funnel plot with study labels. What do you make of it?
-* Make a funnel plot whit inverse variance on the y-axis.
+* Make a funnel plot with inverse variance on the y-axis.
 * Perform Egger's test for funnel plot asymmetry.
 * Perform Begg & Mazumdar's test for funnel plot asymmetry. Based on _both_ Egger's test and this test what do you conclude.
 * Make a contour-enhanced funnel plot. What does it reveal?

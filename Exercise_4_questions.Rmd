@@ -1,5 +1,5 @@
 ---
-title: "Solution Session 4"
+title: "Exercise Session 4"
 author: "Dr. Thomas Pollet, Northumbria University (thomas.pollet@northumbria.ac.uk)"
 date: '`r format(Sys.Date())` | [disclaimer](https://tvpollet.github.io/disclaimer)'
 output:
