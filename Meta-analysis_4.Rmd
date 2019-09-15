@@ -134,7 +134,7 @@ In some other fields (e.g., evolutionary biology, epidemiology), the **effect si
 One solution: conducting both analyses and reporting them, perhaps  most adequate approach until meta-scientific research gives us more certainty about which method is best. 
 
 ???
-Again I have not followed this through yet entirely in my own research
+Again I have not followed this through yet entirely in my own research.
 
 ---
 ## Publication bias: Small-study effect methods.
@@ -458,6 +458,9 @@ Formal definition: Number of additional ‘negative’ studies (studies in which
 fsn(TE,se=seTE, data=madata)
 ```
 
+???
+Example I saw has se= but the manual states sei= rather than se=
+
 ---
 ## Orwin Fail-safe N
 
@@ -468,6 +471,9 @@ fsn(TE,se=seTE, data=madata, type='Orwin')
 fsn(TE,se=seTE, data=madata, type='Orwin', target=.5) # reduce to medium effect.
 ```
 
+???
+Note that Orwin's method produces a larger estimate (?!) of the effect size.
+
 ---
 ## Rosenberg Fail-safe N
 
@@ -476,6 +482,9 @@ Number of studies averaging null results that would have to be added to the give
 ```{r}
 fsn(TE,se=seTE, data=madata, type='Rosenberg')
 ```
+
+???
+Note that this is using the estimate.
 
 ---
 ## Issues with fail-safe N's.
@@ -642,8 +651,10 @@ pcurve_dataprep(data=metacont)
 ---
 ## Source the P-curve app function
 
+We take a function from [here](http://p-curve.com/app4/pcurve_app4.06.r), put it in a new file and make it available to R. Make sure it lives where your .rmd lives,... .
+
 ```{r, 'source function'}
-source("http://p-curve.com/app4/pcurve_app4.06.r")
+source("pcurve_app4.06.r")
 ```
 
 Will need to find location where our input file lives!
@@ -658,8 +669,11 @@ getwd()
 Will store lots of files in your working directory... .
 
 ```{r}
-pcurve_app("input.txt", "/Users/dssf7/Dropbox/teaching/Meta_analysis_course_Brazil/Meta-analysis_4" )
+pcurve_app("input.txt", "~/Dropbox/teaching/Meta_analysis_course_Brazil/Meta-analysis_4" )
 ```
+
+???
+Note I use tilde to truncate as office PC will have different username. Note Windows might have different annotation.
 
 ---
 ## Figure 1: "input.png"
@@ -782,6 +796,14 @@ knitr::include_graphics("https://media.giphy.com/media/SRJuiYGLuzIAM/giphy.gif")
 
 ---
 ## Exercise.
+
+Please see the exercise posted [here](https://tvpollet.github.io/Meta-analysis_4/Exercise_4_questions.html)
+
+
+```{r, out.width = "600px", echo=FALSE, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/J99LWJ61hkOVq/giphy.gif") # from giphy.com
+```
+
 
 ---
 ## Any Questions?
