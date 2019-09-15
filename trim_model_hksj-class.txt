@@ -1,0 +1,46 @@
+                            SMD             95%-CI %W(random)
+Call et al.              0.7091 [ 0.1979;  1.2203]        3.8
+Cavanagh et al.          0.3549 [-0.0300;  0.7397]        4.1
+DanitzOrsillo            1.7912 [ 1.1139;  2.4685]        3.3
+de Vibe et al.           0.1825 [-0.0484;  0.4133]        4.4
+Frazier et al.           0.4219 [ 0.1380;  0.7057]        4.3
+Frogeli et al.           0.6300 [ 0.2458;  1.0142]        4.1
+Gallego et al.           0.7249 [ 0.2846;  1.1652]        4.0
+Hazlett-Stevens & Oren   0.5287 [ 0.1162;  0.9412]        4.0
+Hintz et al.             0.2840 [-0.0453;  0.6133]        4.2
+Kang et al.              1.2751 [ 0.6142;  1.9360]        3.4
+Kuhlmann et al.          0.1036 [-0.2781;  0.4853]        4.1
+Lever Taylor et al.      0.3884 [-0.0639;  0.8407]        3.9
+Phang et al.             0.5407 [ 0.0619;  1.0196]        3.9
+Rasanen et al.           0.4262 [-0.0794;  0.9317]        3.8
+Ratanasiripong           0.5154 [-0.1731;  1.2039]        3.3
+Shapiro et al.           1.4797 [ 0.8618;  2.0977]        3.5
+SongLindquist            0.6126 [ 0.1683;  1.0569]        4.0
+Warnecke et al.          0.6000 [ 0.1120;  1.0880]        3.9
+Filled: Warnecke et al.  0.0520 [-0.4360;  0.5401]        3.9
+Filled: SongLindquist    0.0395 [-0.4048;  0.4837]        4.0
+Filled: Frogeli et al.   0.0220 [-0.3621;  0.4062]        4.1
+Filled: Call et al.     -0.0571 [-0.5683;  0.4541]        3.8
+Filled: Gallego et al.  -0.0729 [-0.5132;  0.3675]        4.0
+Filled: Kang et al.     -0.6230 [-1.2839;  0.0379]        3.4
+Filled: Shapiro et al.  -0.8277 [-1.4456; -0.2098]        3.5
+Filled: DanitzOrsillo   -1.1391 [-1.8164; -0.4618]        3.3
+
+Number of studies combined: k = 26 (with 8 added studies)
+
+                        SMD            95%-CI    t p-value
+Random effects model 0.3431 [ 0.0994; 0.5868] 2.90  0.0077
+Prediction interval         [-0.8463; 1.5326]             
+
+Quantifying heterogeneity:
+tau^2 = 0.3181; H = 2.05 [1.70; 2.47]; I^2 = 76.2% [65.4%; 83.7%]
+
+Test of heterogeneity:
+      Q d.f.  p-value
+ 105.15   25 < 0.0001
+
+Details on meta-analytical method:
+- Inverse variance method
+- Sidik-Jonkman estimator for tau^2
+- Hartung-Knapp adjustment for random effects model
+- Trim-and-fill method to adjust for funnel plot asymmetry

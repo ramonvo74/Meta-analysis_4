@@ -1,0 +1,15 @@
+
+Method: ML (k = 22; ksig = 16)
+
+Estimating effect size p-uniform*
+
+
+===
+
+Estimating between-study variance p-uniform*
+
+
+===
+
+Publication bias test p-uniform*
+
