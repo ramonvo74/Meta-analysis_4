@@ -538,7 +538,7 @@ knitr::include_graphics("https://media.giphy.com/media/QKBjRaNI7DrxL3mBK6/giphy.
 ---
 ## P-Curves: Controversial... 
 
-[McShane et al. (2016)](http://sci-hub.tw/https://doi.org/10.1177/1745691616662243) and this [blogpost](https://statmodeling.stat.columbia.edu/2018/02/26/p-curve-p-uniform-hedges-1984-methods-meta-analysis-selection-bias-exchange-blake-mcshane-uri-simosohn/) by Andrew Gekman.
+[McShane et al. (2016)](http://sci-hub.tw/https://doi.org/10.1177/1745691616662243) and this [blogpost](https://statmodeling.stat.columbia.edu/2018/02/26/p-curve-p-uniform-hedges-1984-methods-meta-analysis-selection-bias-exchange-blake-mcshane-uri-simosohn/) by Andrew Gelman.
 
 * Debate revolves on whether we expect heterogeneity in effect sizes or not. If heterogeneity, then _p_-curve is not a good approach... .
 
@@ -823,7 +823,7 @@ knitr::include_graphics("https://media.giphy.com/media/3ohzdRoOp1FUYbtGDu/giphy.
 
 * My colleagues who helped me with regards to meta-analysis Nexhmedin Morina, Stijn Peperkoorn, Gert Stulp, Mirre Simons, Johannes Honekopp.
 
-* HBES for funding this. Those who have funded me (not these studies per se): [NWO](www.nwo.nl), [Templeton](www.templeton.org), [NIAS](http://nias.knaw.nl).
+* [HBES](www.hbes.com) and [LECH](https://www.lechufrn.com/) for funding this workshop. Those who have funded me (not these studies per se): [NWO](www.nwo.nl), [Templeton](www.templeton.org), [NIAS](http://nias.knaw.nl).
 
 * You for listening!
 
